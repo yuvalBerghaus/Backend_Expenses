@@ -1,0 +1,17 @@
+{
+    "name": "markb/expenses",
+    "description": "a PHP application for tracking expenses",
+    "type": "project",
+    "authors": [
+        {
+            "name": "yuvalBerghaus"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework",
+            "App\\": "src/App"
+        }
+    }
+}
